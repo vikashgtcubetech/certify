@@ -5,15 +5,15 @@ const PasswordProtectedPage = () => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [passwordInput, setPasswordInput] = useState("");
 
-    const correctPassword = "aci"; // सही पासवर्ड सेट करें
+    const correctPassword = "5084aci"; // Correct password
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // फॉर्म रीलोड को रोकें
+        e.preventDefault(); // Prevent form reload
         if (passwordInput === correctPassword) {
-            setIsAuthenticated(true); // ऑथेंटिकेटेड सेट करें
+            setIsAuthenticated(true); // Set authenticated to true
         } else {
-            alert("Incorrect password!"); // पासवर्ड गलत होने पर अलर्ट
-            setPasswordInput(""); // इनपुट साफ करें
+            alert("Incorrect password!"); // Show alert on wrong password
+            setPasswordInput(""); // Clear input field
         }
     };
 
