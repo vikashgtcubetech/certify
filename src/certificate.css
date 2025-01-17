@@ -1,0 +1,261 @@
+
+
+body {
+    margin: 50px 0px;
+    /* font-family: "Poppins"; */
+    /* font-family:sans-serif; */
+}
+
+.top_heading {
+    color: #0671dc; 
+    /* font-size: 20px; */
+}
+.container {
+    max-width: 1100px;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    justify-content: space-around;
+}
+.main-left {
+    width: 500px;
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+   
+}
+.main-left div label{
+    margin-bottom: 20px; 
+    display: inline-block;
+   width: 120px;
+}
+.main-left div input{
+    outline: 0;
+    padding: 5px 10px;
+    /* font-size: 16px; */
+}
+.main-left div select{
+    font-size: 18px;
+    padding: 5px ;
+    width: 25%;
+}
+
+.main-right {
+    width: 550px;
+    height: 780px;
+    position: relative;
+    border: 1px solid black;
+    /* background: url(border.svg);
+     */
+     background-image: url('/public/border.svg'); /* Avoid using this */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-date {
+    width: 85%;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.issuedate{
+    text-align: left;
+}
+.issuedate :first-child,.reg-number :first-child {
+    font-weight: 600;
+    font-size: 12px;
+    height: 15px;
+    font-family: "Poppins", serif;
+}
+.reg-number {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.reg-number :last-child , .issuedate :last-child{
+    margin-top: -6px;
+}
+
+.s_name {
+    width: 350px;
+    height: 35px;
+    /* transform: translate(-50%, -50%); */
+    color: #068cdc;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.of,
+.duraction,
+.f_name,
+.course,
+.start-date {
+    /* transform: translate(-50%, -50%); */
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+.of {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+}
+.f_name {
+    width: 300px;
+    height: 25px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.has-succ {
+    width: 300px;
+    height: 25px;
+    margin: auto;
+    padding: 10px 0px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+.duraction {
+    width: 200px;
+    height: 20px;
+    font-style: italic;
+    margin: 5px auto;
+}
+.course {
+    width: 400px;
+    height: 25px;
+    margin: auto;
+}
+
+.start-date {
+   width: 300px;
+   height: 20px;
+   margin: auto;
+   margin-top: 20px;
+   font-style: italic;
+}
+.we-found{
+    font-size: 0.9rem;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+
+.grade {
+    position: absolute;
+    top: 77%;
+    left: 50.5%;
+    font-size: 16px;
+    color: #068cdc;
+    font-weight: bold;
+    transform: translate(-10%, -45%);
+    font-family: sans-serif;
+    z-index: 111;
+}
+
+
+.certificate-text {
+    text-align: center;
+    margin-top: 42px;
+}
+
+.cert {
+    font-size: 45px;
+    margin-top: 0px;
+}
+.achivement p {
+    margin-top: -8px;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+.achivement img {
+    width: 250px;
+    text-align: center;
+    padding-left: 22px;
+    margin-top: -30px;
+}
+.certify {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -5px;
+    letter-spacing: 1.5px;
+}
+.institute {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+.sign img {
+    width: 140px;
+}
+hr{
+    width: 120px;
+    margin-top: -25px;
+    margin-left: 0px;
+    border: 1px solid black;
+}
+.director-text{
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -15px;
+}
+.director-name{
+    margin-bottom: -8px;
+    font-size: 14px;
+}
+.director-of{
+    font-size: 0.6rem;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+.director-of span{
+    color: #068cdc;
+    font-size: 11px;
+}
+.award img {
+    width: 110px;
+    height: 130px;
+}
+
+.seel img {
+    width: 110px;
+}
+
+.seel p {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: -10px;
+    z-index: 999999;
+}
+
+.grade-text {
+    font-size: 10px;
+    width: 350px;
+    height: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+button{
+    background: #068cdc;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+

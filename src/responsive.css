@@ -1,0 +1,47 @@
+/* Media query for screens that are 768px or larger (like tablets and desktops) */
+/* @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  } */
+
+/* Media query for screens smaller than 768px (like mobile phones) */
+@media (max-width: 767px) {
+    body {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-left {
+        max-width: 550px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-left div label {
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 200px;
+    }
+
+    .main-left div div {
+        padding: 5px 10px;
+    }
+
+
+    .main-right {
+        max-width: 550px;
+        height: 780px;
+        border: 1px solid transparent;
+    }
+
+    button {
+        margin: 20px 0px 0px -2px;
+    }
+}
